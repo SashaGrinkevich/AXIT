@@ -1,0 +1,214 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@400;600;700&family=Raleway&display=swap');
+
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-family: 'Raleway','Open Sans', sans-serif;
+    
+}
+
+.container_tabs {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+
+}
+.tabs{
+    text-align: center;
+    margin: 50px;
+}
+
+.tabs-header {
+    /* border: 1px  solid #C6CBCD; */
+    border-bottom: none;
+    display: flex;
+
+}
+
+.tab1 {
+    width: 203px;
+    height: 40px;
+    padding: 10px 82.5px 11px 82.5px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    border: 1px solid #C6CBCD;
+    border-top-right-radius: 5px;
+    border-top-left-radius:5px ;
+
+    
+
+}
+
+.tab2 {
+    width: 184px;
+    height: 40px;
+    padding: 10px 73px 11px 73px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.tab3 {
+    width: 184px;
+    height: 40px;
+    padding: 10px 73px 11px 73px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.card {
+    width: 1170px;
+    display: flex;
+    border: 1px solid #C6CBCD;
+}
+ 
+.card-info {
+    width:570px;
+    margin-left: 100px;
+    display: flex;
+    flex-direction: column;
+    text-align: justify center;
+  
+    
+}
+
+.title {
+    width: 570px;
+    height: 124px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: justify;
+    margin: 1px 30px 27px 0;
+    
+
+}
+
+.subtitle-text {
+    width: 570px;
+    height: 210px;
+    font-family: 'Raleway';
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin: 0 30px 27px 0;
+    
+
+
+} 
+ .button {
+    width: 270px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #EC7979; 
+    margin-bottom: 54px;   
+} 
+
+.card-image {
+    width: 470px;
+    height: 500px;
+    /* margin-left: 30px; */
+}
+
+/* новая секция */
+.container-about{
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+
+
+.about{
+    text-align: center;
+    margin-bottom: 58px;
+}
+.about-header{
+    font-family: 'Raleway';
+    font-weight: 400;
+    text-align: center;
+    margin-bottom: 71px;
+}
+.about-header__title {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    margin: 57px 0;
+}
+hr {
+    width: 170px;
+    height: 0px;
+    border: 1px solid #EC7979;
+    margin:0 auto ;
+    
+}
+
+.about-header__subtitle {
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    margin-top: 40px;
+    color: #86878B;
+
+
+}
+.about-cards{
+
+text-align: center;
+display: flex;
+
+
+}
+
+.card-item {
+    width: 370px;
+    display:inline-block ;
+    margin: 0 3px;
+    padding: 0 10px;
+    
+}
+.card-item__icon{
+    width: 170px ;
+    height: 170px;
+    margin: 0 auto;
+}
+
+
+.card-item__title{
+height: 100px;
+font-family: 'Open sans';
+font-weight:700;
+font-size: 24px;
+line-height: 33px;
+padding: 35px 0;
+color: #000000
+
+}
+
+.card-item__text{
+    
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #000000
+    ;
+}
