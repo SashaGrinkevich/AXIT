@@ -7,8 +7,8 @@
 }
 
 html {
-    font-family: 'Raleway','Open Sans', sans-serif;
-    
+    font-family: 'Raleway', 'Open Sans', sans-serif;
+
 }
 
 .container_tabs {
@@ -18,13 +18,13 @@ html {
 
 
 }
-.tabs{
+
+.tabs {
     text-align: center;
-    margin: 50px;
+    margin-bottom: 50px;
 }
 
 .tabs-header {
-    /* border: 1px  solid #C6CBCD; */
     border-bottom: none;
     display: flex;
 
@@ -33,16 +33,16 @@ html {
 .tab1 {
     width: 203px;
     height: 40px;
-    padding: 10px 82.5px 11px 82.5px;
+    padding: 10px 81.5px 11px 81.5px;
     font-family: 'Open Sans';
     font-weight: 400;
     font-size: 14px;
     line-height: 19px;
     border: 1px solid #C6CBCD;
     border-top-right-radius: 5px;
-    border-top-left-radius:5px ;
+    border-top-left-radius: 5px;
 
-    
+
 
 }
 
@@ -67,19 +67,18 @@ html {
 }
 
 .card {
-    width: 1170px;
     display: flex;
     border: 1px solid #C6CBCD;
 }
- 
+
 .card-info {
-    width:570px;
-    margin-left: 100px;
+    width: 570px;
+    margin-left: 95px;
     display: flex;
     flex-direction: column;
-    text-align: justify center;
-  
-    
+
+
+
 }
 
 .title {
@@ -89,9 +88,10 @@ html {
     font-weight: 700;
     font-size: 30px;
     line-height: 41px;
-    text-align: justify;
-    margin: 1px 30px 27px 0;
+    padding:45px 30px 27px 0;
+    margin-bottom:27px;
     
+
 
 }
 
@@ -103,12 +103,14 @@ html {
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    margin: 0 30px 27px 0;
-    
+    text-align: left;
+    margin-bottom:  27px;
 
 
-} 
- .button {
+
+}
+
+.button {
     width: 270px;
     height: 58px;
     font-family: 'Open Sans';
@@ -117,18 +119,19 @@ html {
     line-height: 24.51px;
     color: #FFFFFF;
     text-align: center;
-    background-color: #EC7979; 
-    margin-bottom: 54px;   
-} 
+    background-color: #EC7979;
+    padding: 15px;
+    margin-bottom: 54px;
+}
 
 .card-image {
-    width: 470px;
+    /* width: 470px; */
     height: 500px;
-    /* margin-left: 30px; */
+    margin-left: 4px;
 }
 
 /* новая секция */
-.container-about{
+.container-about {
     width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
@@ -136,16 +139,18 @@ html {
 
 
 
-.about{
+.about {
     text-align: center;
     margin-bottom: 58px;
 }
-.about-header{
+
+.about-header {
     font-family: 'Raleway';
     font-weight: 400;
     text-align: center;
     margin-bottom: 71px;
 }
+
 .about-header__title {
     font-family: 'Raleway';
     font-weight: 400;
@@ -153,12 +158,13 @@ html {
     line-height: 42px;
     margin: 57px 0;
 }
+
 hr {
     width: 170px;
     height: 0px;
     border: 1px solid #EC7979;
-    margin:0 auto ;
-    
+    margin: 0 auto;
+
 }
 
 .about-header__subtitle {
@@ -171,44 +177,174 @@ hr {
 
 
 }
-.about-cards{
 
-text-align: center;
-display: flex;
+.about-cards {
+
+    text-align: center;
+    display: flex;
 
 
 }
 
 .card-item {
     width: 370px;
-    display:inline-block ;
+    display: inline-block;
     margin: 0 3px;
     padding: 0 10px;
-    
+
 }
-.card-item__icon{
-    width: 170px ;
+
+.card-item__icon {
+    width: 170px;
     height: 170px;
     margin: 0 auto;
 }
 
 
-.card-item__title{
-height: 100px;
-font-family: 'Open sans';
-font-weight:700;
-font-size: 24px;
-line-height: 33px;
-padding: 35px 0;
-color: #000000
-
+.card-item__title {
+    height: 100px;
+    font-family: 'Open sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    padding: 35px 0;
+    color: #000000;
 }
 
-.card-item__text{
-    
+.card-item__text {
+
     font-weight: 400;
     font-size: 18px;
     line-height: 21px;
-    color: #000000
-    ;
+    color: #000000;
+}
+
+/* новая секция  */
+.container-pricing {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.pricing {
+    background-color: #F5F5F5;
+    margin-bottom: 50px;
+}
+
+.pricing-header {
+    text-align: center;
+}
+
+.pricing-header__title {
+    height: 150px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    padding: 57px;
+
+}
+
+.pricing-header__subtitle {
+    height: 21px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    padding: 40px 0 59px 0;
+    color: #86878B;
+}
+
+.pricing-cards {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+.pricing-1 {
+    width: 370px;
+    height: 510px;
+    padding-top: 20px;
+}
+
+.list-1 {
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+.pricing-2 {
+    width: 370px;
+    height: 510px;
+    box-shadow: 0px 4px 10px 0px #33333333;
+
+}
+
+.list-2 {
+    text-transform: capitalize;
+    list-style-type: none;
+}
+
+.pricing-3 {
+    width: 370px;
+    height: 510px;
+    padding-top: 20px;
+
+}
+
+.list-3 {
+    text-transform: capitalize;
+    list-style-type: none;
+
+
+}
+
+.list-name {
+    height: 60px;
+    font-family: 'Open sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    color: #FFFFFF;
+    background-color: #333333;
+    text-align: center;
+    padding: 12px;
+}
+
+.price {
+    height: 100px;
+    font-family: 'Raleway';
+    font-size: 36px;
+    font-weight: 700;
+    line-height: 42px;
+    text-align: center;
+    background-color: #333333;
+    color: #FFFFFF;
+    padding:24px;
+}
+
+.text {
+    height: 50px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    background-color: #333333;
+    color: #FFFFFF80;
+    text-align: center;
+
+}
+
+li {
+    height: 50px;
+    font-family: 'Raleway';
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 21px;
+    text-align: center;
+    color: #86878B;
+    padding: 12px;
+    background-color: #FFFFFF;
+    border: 1px solid #F5F5F5;
+
 }
