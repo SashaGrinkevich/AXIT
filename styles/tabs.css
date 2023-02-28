@@ -1,0 +1,118 @@
+.container_tabs {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+
+
+}
+
+.tabs {
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.tabs-header {
+    border-bottom: none;
+    display: flex;
+
+}
+
+.tab1 {
+    width: 203px;
+    height: 40px;
+    padding: 10px 81.5px 11px 81.5px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+    border: 1px solid #C6CBCD;
+    border-top-right-radius: 5px;
+    border-top-left-radius: 5px;
+
+
+
+}
+
+.tab2 {
+    width: 184px;
+    height: 40px;
+    padding: 10px 73px 11px 73px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.tab3 {
+    width: 184px;
+    height: 40px;
+    padding: 10px 73px 11px 73px;
+    font-family: 'Open Sans';
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 19px;
+}
+
+.card {
+    display: flex;
+    border: 1px solid #C6CBCD;
+}
+
+.card-info {
+    width: 570px;
+    margin-left: 95px;
+    display: flex;
+    flex-direction: column;
+
+
+
+}
+
+.title {
+    width: 570px;
+    height: 124px;
+    font-family: 'Open Sans';
+    font-weight: 700;
+    font-size: 30px;
+    line-height: 41px;
+    padding:45px 30px 27px 0;
+    margin-bottom:27px;
+    
+
+
+}
+
+.subtitle-text {
+    width: 570px;
+    height: 210px;
+    font-family: 'Raleway';
+    text-align: left;
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    text-align: left;
+    margin-bottom:  27px;
+
+
+
+}
+
+.button {
+    width: 270px;
+    height: 58px;
+    font-family: 'Open Sans';
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 24.51px;
+    color: #FFFFFF;
+    text-align: center;
+    background-color: #EC7979;
+    padding: 15px;
+    margin-bottom: 54px;
+}
+
+.card-image {
+    /* width: 470px; */
+    height: 500px;
+    margin-left: 4px;
+}

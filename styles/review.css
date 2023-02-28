@@ -1,0 +1,100 @@
+.container-review {
+    width: 1170px;
+    padding: 0 15px;
+    margin: 0 auto;
+}
+
+.review {}
+
+.review-header {
+    text-align: center;
+}
+
+.review-header__title {
+    height: 150px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 36px;
+    line-height: 42px;
+    text-transform: uppercase;
+    padding: 57px;
+}
+
+.review-header__title::after {
+    content: "";
+    width: 170px;
+    height: 1.82px;
+    background-color: #EC7979;
+    display: block;
+    margin: 50px auto;
+
+}
+
+.review-header__subtitle {
+    height: 21px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+    color: #86878B;
+    padding: 40px 0 83px 0;
+}
+.review-cards {
+    text-align: center;
+}
+.review-card1 {
+    width: 370px;
+    height: 336px;
+    display: flex;
+    flex-direction: column;
+}
+.background-card {
+    height:180px ;
+    background-color: #E2E2E2;
+    border-radius: 10px;
+    margin-bottom: 66px;
+}
+.background-card::after {
+    content: "";
+	width: 20px;
+	height: 30px;
+	border-left: 15px solid transparent;
+	border-right: 15px solid transparent;
+	border-top: 15px solid red;
+}
+.review-card-text {
+    height: 105px;
+    padding: 38px  0 37px 0;
+
+}
+.review-comment-card1 {
+    display: flex;
+
+
+    
+}
+.comment-photo {
+    width: 70px;
+    height: 70px;
+    
+}
+.comment-name {
+    padding-left: 30px;
+}
+.username {
+    font-family: 'Open sans';
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 33px;
+    width: 259px;
+    height: 54px;
+    padding-bottom: 15px;
+}
+.manager {
+    width: 270px;
+    height: 21px;
+    font-family: 'Raleway';
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 21px;
+}
