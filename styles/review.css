@@ -41,6 +41,7 @@
 }
 .review-cards {
     text-align: center;
+    display: flex;
 }
 .review-card1 {
     width: 370px;
@@ -60,7 +61,7 @@
 	height: 30px;
 	border-left: 15px solid transparent;
 	border-right: 15px solid transparent;
-	border-top: 15px solid red;
+	border-top: 20px solid red;
 }
 .review-card-text {
     height: 105px;
