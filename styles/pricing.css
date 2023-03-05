@@ -1,11 +1,15 @@
-
+.section-price{
+    background-color: #F5F5F5;
+    ;
+    
+}
 .container-pricing {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
-.pricing {
+.pricing_wrapper {
     background-color: #F5F5F5;
     padding-bottom: 50px;
 }

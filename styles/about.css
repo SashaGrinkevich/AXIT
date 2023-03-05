@@ -1,12 +1,12 @@
 .container-about {
-    width: 1170px;
+    max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
 }
 
 
 
-.about {
+.about_wrapper {
     text-align: center;
     margin-bottom: 58px;
 }
