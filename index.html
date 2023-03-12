@@ -11,7 +11,7 @@
 
 <body>
     <!-- новая секция  -->
-    <header>
+    <header class="header">
         <div class="container_header">
             <div class="header_wrapper">
                 <div class="header-logo">
@@ -24,11 +24,11 @@
                 </div>
                 <nav class="nav">
                     <ul class="nav-menu">
-                        <li class="menu-link">Features</li>
-                        <li class="menu-link">About</li>
-                        <li class="menu-link">Pricing</li>
-                        <li class="menu-link">Reviews</li>
-                        <li class="menu-link">Contact</li>
+                        <li class="menu-link"> <a href="#Features"> Features</a></li>
+                        <li class="menu-link"><a href="#About"> About</a></li>
+                        <li class="menu-link"><a href="#Pricing"> Pricing</a></li>
+                        <li class="menu-link"><a href="#Reviews"> Reviews</a></li>
+                        <li class="menu-link"><a href="#Contact"> Contact</a></li>
                     </ul>
                 </nav>
             </div>
@@ -37,10 +37,10 @@
     <!-- новая секция -->
     <main>
         <!-- новая секция -->
-        <section>
+        <section class="banner">
             <div class="container-banner">
                 <div class="banner_wrapper">
-                    <div class="banner-cards">
+                    <div class="banner-content">
                         <div class="banner-card">
                             <div class="banner__logo">
                                 <div class="banner-logo__image-1">
@@ -56,25 +56,39 @@
                             <div class="banner__text">
                                 <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit</p>
                             </div>
-                            <div class="banner__button">
-                                Download
-                            </div>
+                            <div class="banner__button"> <a href="#">
+                                    Download
+                                </a></div>
                         </div>
                         <div class="banner-form">
-                            <ul class="form-input">
-                                <li class="form-title">Try Your <span>FREE</span> Trial Today</li>
-                                <li class="input-name">Name</li>
-                                <li class="input-name">Email</li>
-                                <li class="input-name">Password</li>
-                                <li class="form-button">Get Started</li>
-                            </ul>
+                            <form action="" class="form1">
+                                <div class="form_content">
+                                    <p class="form__title">Try Your <span>FREE</span> Trial Today</p>
+                                    <div class="form_content__item">
+                                        <label for="Name" class="label">Name</label>
+                                        <input type="Name" class="input">
+                                    </div>
+                                    <div class="form_content__item">
+                                        <label for="Email" class="label">Email</label>
+                                        <input type="Email" class="input">
+                                    </div>
+                                    <div class="form_content__item">
+                                        <label for="Password" class="label">Password</label>
+                                        <input type="Password" class="input">
+                                    </div>
+                                </div>
+                                <button type="submit" class="form-button"> <a href="#"> Get Started</a></button>
+                            </form>
                         </div>
+
+
                     </div>
                 </div>
             </div>
+            </div>
         </section>
         <!-- новая секция -->
-        <section>
+        <section class="social">
             <div class="container-social">
                 <div class="social-wrapper">
                     <div class="social-content">
@@ -83,21 +97,29 @@
                                 <h4>Social Media</h4>
                             </div>
                             <div class="social-headr__text">
-                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br> 
+                                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. <br>
                                     Aenean euismod bibendum laoreet.</p>
                             </div>
                         </div>
                         <div class="social-icon__link">
                             <nav class="brands">
                                 <ul class="brands-icons">
-                                    <li class="icon"><i class="fa-brands fa-facebook-f fa-2x"></i></li>
-                                    <li class="icon"><i class="fa-brands fa-twitter fa-2x"></i></li>
-                                    <li class="icon"><i class="fa-brands fa-linkedin fa-2x"></i></li>
-                                    <li class="icon"><i class="fa-brands fa-pinterest fa-2x"></i></li>
-                                    <li class="icon"><i class="fa-brands fa-instagram fa-2x"></i></li>
-                                    <li class="icon"><i class="fa-brands fa-github fa-2x"></i></li>
-                                    <li class="icon"><i class="fa-solid fa-rss fa-2x"></i></li>
+                                    <li class="icon"><a target="_blank" href="https://www.facebook.com"> <i
+                                                class="fa-brands fa-facebook-f fa-2x  "></a></i></li>
+                                    <li class="icon"><a target="_blank" href="https://www.twitter.com"><i
+                                                class="fa-brands fa-twitter fa-2x"></a></i></li>
+                                    <li class="icon"><a target="_blank" href="https://www.linkedin.com"><i
+                                                class="fa-brands fa-linkedin fa-2x"></a></i></li>
+                                    <li class="icon"><a target="_blank" href="https://www.pinterest.com"><i
+                                                class="fa-brands fa-pinterest fa-2x "></a></i></li>
+                                    <li class="icon"><a target="_blank" href="https://www.instagram.com"><i
+                                                class="fa-brands fa-instagram fa-2x"></a></i></li>
+                                    <li class="icon"><a target="_blank" href="https://github.com"><i
+                                                class="fa-brands fa-github fa-2x"></a></i></li>
+                                    <li class="icon"><a target="_blank" href="https://wikipedia.org"><i
+                                                class="fa-solid fa-rss fa-2x"></a></i></li>
                                 </ul>
+
                             </nav>
                         </div>
                     </div>
@@ -105,7 +127,7 @@
             </div>
         </section>
         <!-- новая секция -->
-        <section>
+        <section class="tabs">
             <div class="container_tabs">
                 <div class="tabs_wrapper">
                     <div class="tabs-header">
@@ -128,9 +150,9 @@
                                 <br> Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean <br> euismod
                                 <br> bibendum laoreet.
                             </p>
-                            <div class="button">
-                                Download
-                            </div>
+                            <div class="button"> <a href="#">
+                                    Download
+                                </a></div>
 
                         </div>
                         <div class="card-image">
@@ -141,7 +163,7 @@
             </div>
         </section>
         <!-- новая секция -->
-        <section>
+        <section class="about">
             <div class="container-about">
                 <div class="about_wrapper">
                     <div class="about-header">
@@ -210,12 +232,12 @@
                                 <li class="list-name">Basic</li>
                                 <li class="price">$10</li>
                                 <li class="text">Free for life</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
                             </ul>
                         </div>
                         <div class="pricing-2">
@@ -223,12 +245,12 @@
                                 <li class="list-name">Optima</li>
                                 <li class="price">$20</li>
                                 <li class="text">Free for life</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
                             </ul>
                         </div>
                         <div class="pricing-3">
@@ -236,12 +258,12 @@
                                 <li class="list-name">Pro</li>
                                 <li class="price">$30</li>
                                 <li class="text">Free for life</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
-                                <li>1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
+                                <li class="price_text">1 gb of space</li>
                             </ul>
                         </div>
                     </div>
@@ -249,7 +271,7 @@
             </div>
         </section>
         <!-- новая секция -->
-        <section>
+        <section class="review">
             <div class="container-review">
                 <div class="review_wrapper">
                     <div class="review-header">
@@ -333,21 +355,96 @@
                 </div>
             </div>
         </section>
+        <!-- новая секция -->
+        <section class="banner2">
+            <div class="container-banner2">
+                <div class="banner2_wrapper">
+                    <div class="banner2_header">
+                        <h2 class="banner2__title">
+                            STYLISH AXURE DESIGN
+                        </h2>
+                        <div class="banner2__text">
+                            <p>Use the sections you need, remove the ones you don't. Create gorgeous prototypes faster
+                                than ever!</p>
+                        </div>
+                    </div>
+                    <div class="banner2_button"> <a href="#">
+                            Download
+                        </a></div>
+                </div>
+            </div>
+        </section>
+        <!-- новая секция -->
+        <section class="section-contact">
+            <div class="container-contact">
+                <div class="contact_wrapper">
+                    <div class="contact-header">
+                        <div class="contact-header_title">
+                            contact us
+                        </div>
+                        <div class="contact-header_text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                        </div>
+                    </div>
+                    <div class="contact">
+                        <div class="contact-form">
+                            <form action="" class="form2">
+                                <div class="contact-form_content">
+                                    <div class="contact-form_content__item">
+                                        <label for="Name" class="contact__label">Name</label>
+                                        <input type="Name" class="contact__input">
+                                    </div>
+                                    <div class="contact-form_content__item">
+                                        <label for="Email" class="contact__label">Email</label>
+                                        <input type="Email" class="contact__input">
+                                    </div>
+                                    <div class="contact-form_content__item">
+                                        <label for="Password" class="contact__label">Password</label>
+                                        <input type="Password" class="contact__input">
+                                    </div>
+                                </div>
+                            </form>
+                            <form action="" class="form3">
+                                <div class="contact-form_content">
+                                    <div class="contact-form_content__item">
+                                        <p class="contact_Message">Message</p>
+                                        <!-- <label for="Message" class="contact__label> Message </label> -->
+                                        <textarea name="q" id="" cols="60" rows="20" class="textarea">
+                                    </textarea>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                        <button type="submit" class="contact-form_button"> <a href="#">
+                                Send Message
+                            </a></button>
+                    </div>
+                </div>
+            </div>
+
+        </section>
     </main>
     <!-- новая секция -->
-    <footer>
+    <footer class="footer">
         <div class="container-footer">
             <div class="footer_wrapper">
                 <div class="footer-links">
                     <nav class="footer-links-icon">
                         <ul class="footer-images">
-                            <li class="footer-icon"><i class="fa-brands fa-facebook-f fa-2x"></i></li>
-                            <li class="footer-icon"><i class="fa-brands fa-twitter fa-2x"></i></li>
-                            <li class="footer-icon"><i class="fa-brands fa-linkedin fa-2x "></i></li>
-                            <li class="footer-icon"><i class="fa-brands fa-pinterest fa-2x"></i></li>
-                            <li class="footer-icon"><i class="fa-brands fa-instagram fa-2x"></i></li>
-                            <li class="footer-icon"><i class="fa-brands fa-github fa-2x"></i></li>
-                            <li class="footer-icon"><i class="fa-solid fa-rss fa-2x"></i></li>
+                            <li class="footer-icon"><a target="_blank" href="https://www.facebook.com"> <i
+                                        class="fa-brands fa-facebook-f fa-2x  "></a></i></li>
+                            <li class="footer-icon"><a target="_blank" href="https://www.twitter.com"><i
+                                        class="fa-brands fa-twitter fa-2x"></a></i></li>
+                            <li class="footer-icon"><a target="_blank" href="https://www.linkedin.com"><i
+                                        class="fa-brands fa-linkedin fa-2x"></a></i></li>
+                            <li class="footer-icon"><a target="_blank" href="https://www.pinterest.com"><i
+                                        class="fa-brands fa-pinterest fa-2x "></a></i></li>
+                            <li class="footer-icon"><a target="_blank" href="https://www.instagram.com"><i
+                                        class="fa-brands fa-instagram fa-2x"></a></i></li>
+                            <li class="footer-icon"><a target="_blank" href="https://github.com"><i
+                                        class="fa-brands fa-github fa-2x"></a></i></li>
+                            <li class="footer-icon"><a target="_blank" href="https://wikipedia.org"><i
+                                        class="fa-solid fa-rss fa-2x"></a></i></li>
                         </ul>
                     </nav>
                     <div class="footer-text">

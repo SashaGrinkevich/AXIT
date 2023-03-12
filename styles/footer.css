@@ -1,12 +1,14 @@
-.footer_wrapper{
+.footer{
+    padding: 35px 0 27px 0;
+    background-color: black;
+}
+.container-footer{
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
+    
 }
-.container-footer{
-    height: 164px;
-    background-color: black;
-   
+.footer_wrapper{
 }
 .footer-links{
     display: flex;
@@ -15,21 +17,23 @@
 
 }
 .footer-images{
-    display: flex;
+    width: 570px;
     list-style-type: none;
+    display: flex;
+    justify-content: space-between;
 }
 .footer-icon{
  background-color: black;
+ font-size: 19px;
     border: none;
-    margin: 39px 0 34.41px 0;
+    padding-bottom: 27px;
     color: #CCCCCC;
-    padding: 21px;
     cursor: pointer;
-    transition: 0.2;
+    transition: 0.2s;
 }
 .footer-icon:hover{
     color: #EC7979;
-    transform: scale(1.5,1.5);
+    transform: scale(1.3,1.3);
 }
 .footer-text{
     font-family: "Raleway";
@@ -37,6 +41,5 @@
     font-weight: 400;
     line-height: 21px;
     color:#FFFFFF80;
-    margin-bottom: 27px;
 
 }

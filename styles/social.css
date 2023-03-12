@@ -1,3 +1,7 @@
+.social{
+    background-color:#F8EFEF ;
+    padding: 18px;
+}
 .container-social {
     max-width: 1170px;
     margin: 0 auto;
@@ -5,22 +9,21 @@
 
 }
 
-.social-wrapper {}
+.social-wrapper {
+}
 
 .social-content {
     background-color: #F8EFEF;
-    height: 140px;
     display: flex;
     justify-content: space-between;
-
-}
+}   
 
 .social-header {
     display: flex;
     flex-direction: column;
-    justify-content: center;
+    justify-content: space-around;
     align-items: flex-start;
-    padding-left: 170px;
+    
 }
 
 .social-header__title {
@@ -28,17 +31,19 @@
     font-weight: 700;
     font-size: 24px;
     line-height: 32.68px;
-    margin-bottom: 18px;
+    /* padding: 14px;
+    margin: 4px; */
 }
 
 .social-header__text {
-    width: 470px;
+    /* width: 470px; */
     height: 42px;
     font-family: 'Raleway';
     font-size: 18px;
     font-weight: 400;
     line-height: 21px;
-    margin-bottom: 18px
+    color:  #86878B;
+    
 }
 
 .social-icon__link {
@@ -46,19 +51,21 @@
 }
 
 .brands-icons {
-    padding: 42px;
+    width: 670px;
     display: flex;
+    font-size: 22px;
     list-style-type: none;
 
 }
 
 .icon {
     display: flex;
-    justify-content: space-around;
-    align-items: center;
+    justify-content: space-between;
+    align-items: center;    
     background-color: #F8EFEF;
     border: none;
-    padding: 21px;
+    /* margin-top: 20px; */
+    padding: 35px 30px;
     color: #CCCCCC;
     cursor: pointer;
     transition: 0.2s;
@@ -66,16 +73,32 @@
 }
 .icon:hover{
     color: #EC7979;
-    transform: scale(1.5,1.5);
+    transform: scale(1.3,1.3);
 
 }
+.fa-facebook-f{
 
-.fa-twitter {}
+}
+.fa-twitter {
+   
+}
 
-.fa-linkedin {}
+.fa-linkedin {
+    
+}
 
-.fa-pinterest {}
+.fa-pinterest {
+   
+}
 
-.fa-instagram {}
+.fa-instagram {
+    
+}
 
-.fa-github {}
+.fa-github {
+    
+}
+
+.fa-rss{
+    
+}
