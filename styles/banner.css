@@ -2,12 +2,11 @@
     background-image: url(../images/banner1/image.jpg);
     background-size: cover;
     background-position: center;
-    width: 100%;
-    height: 100%;
     padding: 208px 0 185px 0;
+    position: relative;
 }
 
-/* .banner::before {
+.banner::before {
     content: "";
     display: block;
     width: 100%;
@@ -16,8 +15,9 @@
     top: 0;
     left: 0;
     z-index: 1;
+    background-color: rgba(0, 0, 0, 0.5);
 
-} */
+}
 
 .container-banner {
     max-width: 1170px;
@@ -113,6 +113,9 @@
     text-align: center;
     transition: 0.2s;
 }
+.banner__button a {
+    color: white;
+}
 
 .banner__button:hover {
     border: 2px solid #EC7979;
@@ -198,6 +201,9 @@ span {
     color: #FFFFFF;
     border: none;
     transition: 0.2s; 
+}
+.form-button a{
+    color: white;
 }
 
 .form-button:hover {

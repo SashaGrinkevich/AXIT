@@ -139,6 +139,9 @@
     margin-bottom: 54px;
     transition: 0.2s;
 }
+.button a {
+    color: white;
+}
 
 .button:hover {
     color: white;
