@@ -1,4 +1,4 @@
-.banner2 {
+.banner2 {display: none;
     background-image: url(../images/banner2/bg.jpg);
     background-size: cover;
     background-position: center;

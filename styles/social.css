@@ -1,4 +1,5 @@
 .social{
+    display: none;
     background-color:#F8EFEF ;
     padding: 18px;
 }
@@ -53,7 +54,7 @@
 .brands-icons {
     width: 670px;
     display: flex;
-    font-size: 22px;
+    font-size: 45px;
     list-style-type: none;
 
 }
