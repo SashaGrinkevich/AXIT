@@ -1,4 +1,4 @@
-.banner2 {display: none;
+.banner2 {
     background-image: url(../images/banner2/bg.jpg);
     background-size: cover;
     background-position: center;
@@ -88,4 +88,95 @@
     border: 2px solid #EC7979;
     color: #EC7979;
     cursor: pointer;
+}
+
+@media (max-width:1024px){
+    .banner2 {
+        padding: 50px 16px 50px 16px;
+    }
+    .banner2_container {
+        padding: 0;
+    }
+    .banner2__title {
+        font-family: 'Raleway';
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+    }
+    .banner2__title::after {
+        content: "";
+        width: 142px;
+        height: 1px;
+        background-color: white;
+        display: block;
+        margin: 40px auto;
+    }
+    .banner2__text {
+        font-family: 'Raleway';
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+align-items: center;
+text-align: center;
+padding-bottom: 32px;
+margin: 0;
+    }
+    .banner2_button {
+        height: 58px;
+width: 318px;
+font-family: 'Open Sans';
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+
+    }
+}
+
+@media(max-width:320px){
+    .banner2 {
+        object-fit: cover;
+        padding: 0 17px 58px 16px;
+    }
+    .banner2_wrapper {
+        width: 288px;
+    }
+    
+    .banner2__title {
+        margin: 0;
+        margin-top:48px;
+        font-family: 'Raleway';
+font-weight: 400;
+font-size: 24px;
+line-height: 28px;
+align-items: center;
+text-align: center;
+text-transform: uppercase;
+    }
+    .banner2__text {
+        font-family: 'Raleway';
+font-weight: 400;
+font-size: 14px;
+line-height: 16px;
+align-items: center;
+text-align: center;
+padding-bottom: 66px;
+    }
+    .banner2_button {
+        width: 288px;
+        
+font-family: 'Open Sans';
+font-weight: 600;
+font-size: 18px;
+line-height: 25px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+    }
+
 }

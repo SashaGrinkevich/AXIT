@@ -1,5 +1,5 @@
-.header {display: none;
-    
+.header {
+
     background-color: black;
     padding: 22px 0;
     position: sticky;
@@ -8,18 +8,21 @@
     z-index: 6;
 
 }
-.container_header {
+
+.container {
     max-width: 1170px;
     margin: 0 auto;
     padding: 0 15px;
 }
 
-.header_wrapper{
+.header_wrapper {
     display: flex;
     justify-content: space-between;
     align-items: center;
+    padding: 0 170px 0 115.28px;
 
 }
+
 .header-logo {
     width: 183.1px;
     display: flex;
@@ -47,11 +50,11 @@
 }
 
 .nav-menu {
-     list-style-type: none;
+    list-style-type: none;
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
+
 }
 
 
@@ -63,14 +66,173 @@
     line-height: 19.07px;
     color: white;
     text-align: center;
-   padding:1px  0 auto;
-   
+    padding: 1px 0 auto;
+
 }
 
-.menu-link a{
+.menu-link a {
     color: white;
 }
-.menu-link:hover{
-  border-bottom: 3px solid #EC7979;
+
+.menu-link a:hover {
+
+    color: #EC7979;
+
+}
+
+.menu-link a:active {
+    color: #AB4949;
+}
+
+@media(max-width:1024px) {
+    .container {
+        padding: 16px 0;
+    }
+
+    .header_wrapper{ 
+       padding: 0 20px 0 115.28px}
+       .header-logo{
+        justify-content: flex-start;
+       }
+    .nav-menu {
+        width: 566px;
+    }
+
+    .menu-link {
+        font-family: 'Open Sans';
+        font-weight: 600;
+        font-size: 14px;
+        line-height: 19px;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+        width: 113px;
+    }
+}
+
+@media(max-width:320px){
+    .header {
+        
+        padding: 0 35px 0 20px ;
+    }
+    
+    .header_wrapper {
+        display: flex;
+        justify-content: space-between;
+        padding: 0;
+        width: 288px;
+        border: none;
+    }
+
+    .header-logo {
+        max-width: 130px;
+        position: relative;
+        z-index: 5;
+    }
+
+    .header-logo__image1 {
+        max-width: 38px;
+        padding: 16 0;
+    }
+
+    .header-logo__image2 {
+        max-width: 24px;
+        padding: 16px 0;
+    }
+
+    .nav {
+        padding-top: 50px;
+        position: fixed;
+        top: 0;
+        left: -100%;
+        width: 100%;
+        height: 100%;
+        background-color: black;
+        /* opacity: 0.8; */
+        transition: 0.5s;
+    }
+
+    .nav:active {
+        top: 0;
+    }
+
+
+    .nav-menu {
+        padding-top: 80.5;
+        display: block;
+
+    }
+
+    .menu-link {
+        width: 288px;
+        padding: 25px;
+        font-family: 'Open Sans';
+font-weight: 600;
+font-size: 14px;
+line-height: 19px;
+align-items: center;
+text-align: center;
+text-transform: capitalize;
+margin-left: 70px;
+
+    }
+
+
+    .header__burger {
+        display: block;
+        position: relative;
+        width: 24px;
+        height: 19px;
+        position: relative;
+        z-index: 5;
+        background-color: transparent;
+        border: none;
+        
+    }
+    .header__burger span {
+            display: block;
+            content: '';
+            position: absolute;
+            background-color: white;
+            left: 0;
+            width: 100%;
+            height: 3px;
+            top: 7.5px;
+            transition: 0.3s;
+            opacity: 0.5s;
+        }
+
+        .header__burger span:nth-child(1) {
+            transform: translateY(8px);
+        }
+
+        .header__burger span:nth-child(3) {
+            transform: translateY(-8px);
+        }
+
+        .header.open .header__burger span:nth-child(1) {
+            transform: translateY(0) rotate(-45deg);
+        }
+
+        .header.open .header__burger span:nth-child(2) {
+            opacity: 0;
+        }
+
+        .header.open .header__burger span:nth-child(3) {
+            transform: translateY(0) rotate(45deg);
+        }
+
+
+        .header.open .nav {
+            transform: translateX(320px);
+            transition: 0.3s;
+        }
+
+        .header.open .header__burger {
+            position: fixed;
+            right: 20%;
+            transition: 0.5s;
+        }
     
 }
+    

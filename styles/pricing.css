@@ -1,9 +1,10 @@
-.section-price{display: none;
+.section-price {
     background-color: #F5F5F5;
     ;
-    
+
 }
-.container-pricing {
+
+.price_container {
     max-width: 1170px;
     padding: 0 15px;
     margin: 0 auto;
@@ -28,14 +29,15 @@
     padding: 57px;
 
 }
-.pricing-header__title::after{
+
+.pricing-header__title::after {
     content: "";
     width: 170px;
     height: 1.82px;
     background-color: #EC7979;
     display: block;
     margin: 50px auto;
-    
+
 }
 
 .pricing-header__subtitle {
@@ -51,13 +53,18 @@
 .pricing-cards {
     display: flex;
     justify-content: space-between;
+    flex-wrap: wrap;
 
 }
 
 .pricing-1 {
     width: 370px;
-    height: 510px;
+    /* height: 510px; */
     padding-top: 20px;
+}
+
+.pricing-1:hover {
+    box-shadow: 0px 4px 10px 0px #33333333;
 }
 
 .list-1 {
@@ -67,10 +74,13 @@
 
 .pricing-2 {
     width: 370px;
-    height: 510px;
-    box-shadow: 0px 4px 10px 0px #33333333;
-
+    /* height: 510px; */
 }
+
+.pricing-2:hover {
+    box-shadow: 0px 4px 10px 0px #33333333;
+}
+
 
 .list-2 {
     text-transform: capitalize;
@@ -79,10 +89,15 @@
 
 .pricing-3 {
     width: 370px;
-    height: 510px;
+    /* height: 510px; */
     padding-top: 20px;
 
 }
+
+.pricing-3:hover {
+    box-shadow: 0px 4px 10px 0px #33333333;
+}
+
 
 .list-3 {
     text-transform: capitalize;
@@ -92,6 +107,7 @@
 }
 
 .list-name {
+    border: 1px solid white;
     height: 60px;
     font-family: 'Open sans';
     font-weight: 700;
@@ -104,6 +120,7 @@
 }
 
 .price {
+    border: 1px solid white;
     height: 100px;
     font-family: 'Raleway';
     font-size: 36px;
@@ -112,10 +129,11 @@
     text-align: center;
     background-color: #333333;
     color: #FFFFFF;
-    padding:24px;
+    padding: 24px;
 }
 
 .text {
+    border: 1px solid white;
     height: 50px;
     font-family: 'Raleway';
     font-size: 18px;
@@ -124,6 +142,7 @@
     background-color: #333333;
     color: #FFFFFF80;
     text-align: center;
+    padding: 12px;
 
 }
 
@@ -139,4 +158,222 @@
     background-color: #FFFFFF;
     border: 1px solid #F5F5F5;
 
+}
+
+@media(max-width:1024px) {
+    .section-price {
+        padding: 50px 18px 50px 14px;
+    }
+
+    .price_container {
+        padding: 0;
+    }
+
+    .pricing_wrapper {
+        padding: 0;
+    }
+
+
+    .pricing-header__title {
+        height: 120px;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+        padding: 0;
+        padding-top: 48px;
+    }
+
+    .pricing-header__title::after {
+        content: "";
+        width: 142px;
+        height: 1px;
+        background-color: #EC7979;
+        display: block;
+        margin: 45px auto;
+    }
+
+    .pricing-header__subtitle {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        align-items: center;
+        text-align: center;
+        padding: 32px 0 40px 0;
+
+    }
+
+    .pricing-cards {
+        justify-content: space-between;
+
+
+    }
+
+    .pricing-1 {
+        width: 317px;
+        height: 452.26;
+    }
+
+    .list-name {
+        border: 1px solid white;
+        height: 53px;
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 33px;
+        align-items: center;
+        text-align: center;
+        color: #FFFFFF;
+        background-color: #333333;
+    }
+
+    .price {
+        border: 1px solid white;
+        height: 88px;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 36px;
+        line-height: 42px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text {
+        border: 1px solid white;
+        height: 44px;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 18px;
+        line-height: 21px;
+        align-items: center;
+        text-align: center;
+        text-transform: capitalize;
+    }
+
+    .price_text {}
+
+    .pricing-2 {
+        height: 452.26px;
+        width: 318px;
+
+        box-shadow: 0px 4px 10px 0px #33333333;
+
+    }
+
+    .pricing-3 {
+        width: 317px;
+        height: 452.26;
+    }
+}
+
+@media(max-width:320px) {
+    .section-price {
+        padding: 0 16px;
+    }
+
+    .price_container {
+        padding: 0;
+    }
+
+    .pricing-header__title {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 24px;
+        line-height: 28px;
+        align-items: center;
+        text-align: center;
+        text-transform: uppercase;
+    }
+    .pricing-header__title::after {
+        content: "";
+        width: 134px;
+        height: 1px;
+        background-color: #EC7979;
+        display: block;
+        margin: 40px 75px 22px 75px;
+    
+    }
+
+    .pricing-header__subtitle {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pricing-cards {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: space-between;
+    }
+
+    .pricing-1 {
+        width: 288px;
+        margin-bottom: 27px;
+    }
+
+
+
+    .list-name {
+        font-family: 'Open Sans';
+        font-weight: 700;
+        font-size: 18px;
+        line-height: 25px;
+        align-items: center;
+        text-align: center;
+        height: 47px;
+    }
+
+    .price {
+        height: 78.43px;
+        font-family: 'Raleway';
+        font-weight: 700;
+        font-size: 24px;
+        line-height: 28px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .text {
+        height: 49px;
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        align-items: center;
+        text-align: center;
+        padding-top:15px ;
+    }
+
+    .price_text {
+        font-family: 'Raleway';
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 16px;
+        align-items: center;
+        text-align: center;
+    }
+
+    .pricing-2 {
+        width: 288px;
+        padding: 0;
+        margin-bottom: 26px;
+
+    }
+
+    .list-2 {  padding-bottom:20px ;
+    }
+
+    .pricing-3 {
+        width: 288px;
+        
+        margin-bottom: 26px;
+    }
 }

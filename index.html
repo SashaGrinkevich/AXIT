@@ -13,16 +13,17 @@
 <body>
     <!-- новая секция  -->
     <header class="header">
-        <div class="container_header">
+        <div class="header_container">
             <div class="header_wrapper">
                 <div class="header-logo">
-                    <div class="header-logo__image1">
-                        <img src="./images/header/AXIT logo-1.png" alt="logo">
+                        <img src="./images/header/AXIT logo-1.png" alt="logo" class="header-logo__image1">
+                        <img src="./images/header/AXIT logo-2.png" alt="logo" class="header-logo__image2">
                     </div>
-                    <div class="header-logo__image2">
-                        <img src="./images/header/AXIT logo-2.png" alt="logo">
-                    </div>
-                </div>
+                    <button class="header__burger" id="burger">
+                            <span></span>
+                            <span></span>
+                            <span></span>
+                    </button>
                 <nav class="nav">
                     <ul class="nav-menu">
                         <li class="menu-link"> <a href="#Features"> Features</a></li>
@@ -39,17 +40,13 @@
     <main>
         <!-- новая секция -->
         <section class="banner">
-            <div class="container-banner">
+            <div class="banner_container">
                 <div class="banner_wrapper">
                     <div class="banner-content">
                         <div class="banner-card">
                             <div class="banner__logo">
-                                <div class="banner-logo__image-1">
-                                    <img src="./images/banner1/AXIT logo 2-1.png" alt="logo">
-                                </div>
-                                <div class="banner-logo__image-2">
-                                    <img src="./images/banner1/AXIT logo 2-2.png" alt="logo">
-                                </div>
+                                    <img src="./images/banner1/AXIT logo 2-1.png" alt="logo" class="banner-logo__image-1">
+                                    <img src="./images/banner1/AXIT logo 2-2.png" alt="logo" class="banner-logo__image-2">   
                             </div>
                             <div class="banner__title">
                                 <h1 class="banner-header__title">MODERN AXURE TEMPLATE FOR BEAUTIFUL PROTOTYPES</h1>
@@ -81,8 +78,6 @@
                                 <button type="submit" class="form-button"> <a href="#"> Get Started</a></button>
                             </form>
                         </div>
-
-
                     </div>
                 </div>
             </div>
@@ -90,7 +85,7 @@
         </section>
         <!-- новая секция -->
         <section class="social">
-            <div class="container-social">
+            <div class="social_container">
                 <div class="social-wrapper">
                     <div class="social-content">
                         <div class="social-header">
@@ -120,7 +115,6 @@
                                     <li class="icon"><a target="_blank" href="https://wikipedia.org"><i
                                                 class="fa-solid fa-rss "></a></i></li>
                                 </ul>
-
                             </nav>
                         </div>
                     </div>
@@ -128,8 +122,8 @@
             </div>
         </section>
         <!-- новая секция -->
-        <section class="tabs">
-            <div class="container_tabs">
+        <section class="tabs" id="Features">
+            <div class="tabs_container">
                 <div class="tabs_wrapper">
                     <div class="tabs-header">
                         <div class="tab1">TAB 1</div>
@@ -157,15 +151,15 @@
 
                         </div>
                         <div class="card-image">
-                            <img src="./images/tabs/Rectangle 111.jpg" alt="Statue of Liberty">
+                            <img src="./images/tabs/Rectangle 111.jpg" alt="Statue of Liberty" class="tabs-image">
                         </div>
                     </div>
                 </div>
             </div>
         </section>
         <!-- новая секция -->
-        <section class="about">
-            <div class="container-about">
+        <section class="about" id="About">
+            <div class="about_container">
                 <div class="about_wrapper">
                     <div class="about-header">
                         <h2 class="about-header__title">
@@ -178,7 +172,7 @@
                     <div class="about-cards">
                         <div class="card-item">
                             <div class="card-item__icon">
-                                <img src="./images/about/about_icon_1.svg" alt="about_icon_1" />
+                                <img src="./images/about/about_icon_1.svg" alt="about_icon_1" class="card-item__icon-img" />
                             </div>
                             <h3 class="card-item__title">
                                 Thoughtful Design
@@ -191,7 +185,7 @@
                         </div>
                         <div class="card-item">
                             <div class="card-item__icon">
-                                <img src="./images/about/about_icon_2.svg" alt="icon">
+                                <img src="./images/about/about_icon_2.svg" alt="icon" class="card-item__icon-img">
                             </div>
                             <h3 class="card-item__title">Thoughtful Design</h3>
                             <p class="card-item__text">
@@ -202,7 +196,7 @@
                         </div>
                         <div class="card-item ">
                             <div class="card-item__icon">
-                                <img src="./images/about/about_icon_3.svg" alt="icon">
+                                <img src="./images/about/about_icon_3.svg" alt="icon" class="card-item__icon-img">
                             </div>
                             <h3 class="card-item__title">Thoughtful Design</h3>
                             <p class="card-item__text">
@@ -216,8 +210,8 @@
             </div>
         </section>
         <!-- новая секция -->
-        <section class="section-price">
-            <div class="container-pricing">
+        <section class="section-price" id="Pricing">
+            <div class="price_container">
                 <div class="pricing_wrapper">
                     <div class="pricing-header">
                         <h2 class="pricing-header__title">
@@ -272,8 +266,8 @@
             </div>
         </section>
         <!-- новая секция -->
-        <section class="review">
-            <div class="container-review">
+        <section class="review" id="Reviews">
+            <div class="review_container">
                 <div class="review_wrapper">
                     <div class="review-header">
                         <h2 class="review-header__title">
@@ -300,7 +294,7 @@
                             </div>
                             <div class="review-comment">
                                 <div class="review-comment__photo-1">
-                                    <img src="./images/reviews/Ellipse 7-1 .jpg" alt="photo">
+                                    <img src="./images/reviews/Ellipse 7-1 .jpg" alt="photo" class="review-comment__img">
                                 </div>
                                 <div class="review-comment__username">
                                     <h4 class="name">Davis Rhiel Madsen</h4>
@@ -322,7 +316,7 @@
                             </div>
                             <div class="review-comment">
                                 <div class="review-comment__photo-2">
-                                    <img src="./images/reviews/Ellipse 7-2.jpg" alt="photo">
+                                    <img src="./images/reviews/Ellipse 7-2.jpg" alt="photo" class="review-comment__img">
                                 </div>
                                 <div class="review-comment__username">
                                     <h4 class="name">Jaydon Rosser</h4>
@@ -344,7 +338,7 @@
                             </div>
                             <div class="review-comment">
                                 <div class="review-comment__photo-3">
-                                    <img src="./images/reviews/Ellipse 7-3.jpg" alt="photo">
+                                    <img src="./images/reviews/Ellipse 7-3.jpg" alt="photo" class="review-comment__img">
                                 </div>
                                 <div class="review-comment__username">
                                     <h4 class="name">Cooper Dorwart</h4>
@@ -358,7 +352,7 @@
         </section>
         <!-- новая секция -->
         <section class="banner2">
-            <div class="container-banner2">
+            <div class="banner2_container">
                 <div class="banner2_wrapper">
                     <div class="banner2_header">
                         <h2 class="banner2__title">
@@ -376,8 +370,8 @@
             </div>
         </section>
         <!-- новая секция -->
-        <section class="section-contact">
-            <div class="container-contact">
+        <section class="section-contact" id="Contact">
+            <div class="contact_container">
                 <div class="contact_wrapper">
                     <div class="contact-header">
                         <div class="contact-header_title">
@@ -427,7 +421,7 @@
     </main>
     <!-- новая секция -->
     <footer class="footer">
-        <div class="container-footer">
+        <div class="footer_container">
             <div class="footer_wrapper">
                 <div class="footer-links">
                     <nav class="footer-links-icon">
@@ -455,6 +449,8 @@
             </div>
         </div>
     </footer>
+
+    <script type="module" src="./js/index.js"></script>
 </body>
 
 </html>
